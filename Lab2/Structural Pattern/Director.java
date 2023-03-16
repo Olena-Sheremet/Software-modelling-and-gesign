@@ -6,7 +6,7 @@ public class Director implements Person{
     private int id;
     private String name;
     private double salary;
-    List<Person> personList=new ArrayList<Person>();
+   
     public Director(int id, String name,double salary){
         this.id=id;
         this.name=name;
